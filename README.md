@@ -1,1 +1,1 @@
-# Rock-Paper-Scissors-Game
+A rock-paper-scissors game that can be played only on console.
