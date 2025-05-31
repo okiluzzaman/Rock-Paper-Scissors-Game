@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EFEFD0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.welcomeMSG{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    padding: 20px 0;
+    color: #14342B;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.info p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.info span {
+    border: solid #14342B 1px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.gameScreen {
+    border: solid #14342B 2px;
+    border-radius: 12px;
+    width: 42rem;
+    height: 16rem;
+    margin: 30px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#announcement {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 0 20px;
+}
+
+button {
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #14342B;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
