@@ -1,1 +1,1 @@
-A rock-paper-scissors game that can be played only on console.
+A rock-paper-scissors game that can be played via the graphical interface.
